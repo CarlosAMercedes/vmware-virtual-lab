@@ -45,6 +45,28 @@ Network Segment: 192.168.31.0/24
 
 ---
 
+## Verification Screenshots
+
+Each server and client includes a small set of screenshots demonstrating key configuration steps.  
+The complete image collection is organized by system under the [/screenshots](screenshots) directory.
+
+### Domain Controller (DC01)
+Active Directory and DNS setup.
+![AD Installation](screenshots/dc01_active_directory/ad_installation.png)
+
+### DHCP Server (DC02)
+DHCP authorization and scope configuration.
+![DHCP Scope](screenshots/dc02_dhcp/dhcp_scope.png)
+
+### Linux File Server (LINUXCL01)
+Samba file share configuration and Windows access.
+![Samba Share](screenshots/linuxcl01_samba/share_access_windows.png)
+
+### Windows Clients
+Domain join and login verification.
+![Domain Join](screenshots/wincl01_client/domain_join.png)
+
+
 ## Author
 
 Carlos Mercedes  
