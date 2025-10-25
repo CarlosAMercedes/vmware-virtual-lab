@@ -24,7 +24,7 @@ Static IPs were assigned for the servers, and DHCP was configured for clients.
 - Installed and promoted DC01 as a domain controller.
 - Installed and authorized DHCP on DC02.
 - Joined both Windows clients and the Linux system to the network.
-- Set up file shares, permissions, and a DoD-style logon banner through Group Policy.
+- Set up file shares, permissions, and a DoD style logon banner through Group Policy.
 - Verified connectivity with ping tests and access checks.
 
 ---
@@ -70,7 +70,7 @@ Static IPs were assigned for the servers, and DHCP was configured for clients.
 
 ## Notes
 
-This lab helped me understand how Windows servers, Linux systems, and domain clients interact in a real environment.I set up every component from scratch from official ISOs, no prebuilt images or templates. The goal was to build an enterprise domain environment on a manageable scale.
+This lab helped me understand how Windows servers, Linux systems, and domain clients interact in a real environment.I set up every component from scratch from official ISOs, no prebuilt images or templates. The goal was to build an enterprise domain environment on a small scale.
 
 ---
 
